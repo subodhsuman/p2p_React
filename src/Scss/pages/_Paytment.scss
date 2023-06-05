@@ -1,0 +1,197 @@
+.payment_sec{
+.payment-main-box{
+    .payment-heading{
+        h3{
+            font-weight: 600;
+        }
+    }
+    .payment-info{
+        font-size: var(--fs-12);
+    }
+    .add-payment-method{
+        .dropdown{
+            .dropdown-toggle{
+                background-color: var(--refresh-btn-bg);
+                font-size: var(--fs-13);
+                color: var(--black);
+                font-weight: 500;
+                min-width: 241px;
+            }
+            .dropdown-menu{
+                li{
+                    &:nth-last-child(1) {
+                        p{
+                            display: none;
+                        }
+                        a{
+                            &::before{
+                                position: absolute;
+                                content: '';
+                                width: 100%;
+                                height: 100%;
+                                top: 0;
+                                right: 0;
+                                background: url('/images/p2p/arrow-right.svg') no-repeat right;
+                            }
+                        }
+                    }
+                    a{
+                        &:active{
+                            background-color: transparent;
+                        }
+                    }
+                }
+                .dropdown-item {
+                    font-size: var(--fs-13);
+                    color: var(--black);
+                    font-weight: 500;
+                    min-width: 241px;
+                    p{
+                        width: 4px;
+                        height: 14px;
+                        border-radius: 2px;
+                    }
+                }
+            }
+        }
+    }
+    .payment-details-box{
+        .payment-details-heading{
+            background-color: var(--market-border);
+            .payment-name{
+                font-weight: 500;
+                font-size: var(--fs-13);
+                span{
+                    width: 4px;
+                    height: 14px;
+                    border-radius: 2px;
+                    background-color: var(--active-yellow);
+                }
+            }
+            .payment-action{
+                button{
+                    font-weight: 500;
+                    font-size: var(--fs-13);
+                }
+            }
+           
+        }
+        .payment-details-ques{
+            font-size: var(--fs-12);
+            font-weight: 500;
+        }
+        .payment-details-ans{
+            font-size: var(--fs-14);
+        }
+    }
+   
+}
+// Edit Modal scss
+#editmodal{
+ .modal-content{
+    .modal-header{
+        .modal_payment{
+            font-size: var(--fs-18);
+        }
+    }
+    .modal-body{
+        .recommended_box{
+            border-bottom: 1px solid var(--market-border);
+            .heading{
+                font-size: var(--fs-15);
+            }
+            .payment_method{
+                a{
+                    font-size: var(--fs-14);
+                    color: var(--black);
+                    span{
+                        width: 3px;
+                        height: 18px;
+                        border-radius: 20px;  
+                    }
+                }
+            }
+        }
+        .all_payment_box{
+            .allpayment_head{
+                h6{
+                    font-size: var(--fs-15);
+                }
+            }
+            .search_box{
+                .input-group-text{
+                    background-color: transparent;
+                }
+                .form-control{
+                    font-size: var(--fs-14);
+                    &:focus{
+                        border-color: var(--bs-border-color);
+                    }
+                }
+            }
+            .all_letter{
+                span{
+                    font-size: var(--fs-12);
+                    cursor: pointer;
+                }
+            }
+            .active{
+                background-color: var(--active-yellow);
+                border-radius: 3px;
+            }
+            .payment_method {
+                a{
+                    color: var(--black);
+                    font-size: var(--fs-14);
+                    span{
+                        width: 3px;
+                        height: 18px;
+                        border-radius: 20px;
+                    }
+                }
+            }
+        }
+    }
+ }   
+}
+#deleteModal{
+    .modal-body{
+        .delete_box{
+            .delete_icon{
+                width: 70px;
+                height: 70px;
+                background: var(--icon-bg);
+                img{
+                    width: 55px;
+                    height: 55px;
+                }
+            }
+            .delete_content{
+                p{
+                    font-size: var(--fs-14);
+                }
+            }
+        }
+    }
+    .modal-footer{
+        .cancel_btn{
+            background-color: var(--filter-bg);
+            color: var(--black);
+            font-size: var(--fs-15);
+            border: 1px solid var(--filter-bg);
+        }
+        .confirm_btn{
+            background-color: var(--active-yellow);
+            color: var(--white);
+            font-size: var(--fs-15);
+            border: 1px solid var(--active-yellow);
+        }
+    }
+}
+}
+.color_one{
+    background-color: var(--active-yellow);
+}
+.color_two{
+    background-color: var(--active-red);
+}

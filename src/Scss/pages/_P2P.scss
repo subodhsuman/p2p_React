@@ -1,0 +1,500 @@
+/**============ BANNER SEC CSS START ============**/
+.banner_sec {
+    background-image: url(images/p2p/p2p_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 227px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .info_box {
+        text-align: center;
+
+        h2 {
+            color: var(--white);
+            text-align: center;
+            font-weight: 500;
+            font-size: var(--fs-30);
+        }
+
+        p {
+            color: var(--white);
+            font-size: var(--fs-15);
+            font-weight: 500;
+        }
+
+    }
+}
+
+// /**============ BANNER SEC CSS FINISH ============**/
+
+/**============ TAB BOX CSS START ============**/
+.p2p_main_sec {
+    .tab-box {
+        box-shadow: var(--tab-box-shadow);
+        padding: 10px 10px;
+
+        .tab_heading {
+            ul#pills-tab {
+                background: var(--tab-bg);
+                border: 1px solid var(--tab-border);
+                padding-left: 3px;
+                padding-right: 3px;
+                padding-top: 2px;
+                padding-bottom: 2px;
+                border-radius: 5px;
+
+                .nav-item {
+                    .nav-link.red_active.active {
+                        background: var(--active-red);
+                        color:var(--white);
+                    }
+
+                    .nav-link.green_active.active {
+                        background: var(--active-green);
+                        color:var(--white);
+                    }
+
+                    .nav-link {
+                        height: 30px;
+                        font-size: var(--fs-13);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 3px;
+                        font-weight: 500;
+                        color: var(--black);
+
+                        .active {
+                            box-shadow: var(--tab-active-shadow);
+                            color: var(--white);
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .pair_box {
+           
+
+            
+ button.btn {
+    font-size: var(--fs-14);
+    font-weight: 500;
+    color: var(--black);
+}
+
+button.btn.active {
+    color: var(--active-yellow);
+    border: none;
+    position: relative;
+    &::before {
+        position: absolute;
+        content: "";
+        bottom: -11px;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: var(--active-yellow);
+    }
+}
+        }
+    }
+
+    .filter-box {
+        .filter_inner_box {
+            .label-box {
+                label {
+                    font-size: var(--fs-12);
+                    color: var(--grey);
+                    font-weight: 500;
+                }
+            }
+
+            .form-control {
+                background-color: var(--filter-bg) !important;
+                border-radius: 5px;
+                border-color: var(--filter-bg);
+                font-size: var(--fs-13);
+                color: var(--black);
+                min-height: 45px;
+
+                &:focus {
+                    box-shadow: none;
+                }
+
+                &::placeholder {
+                    color: var(--black);
+                    font-weight: 500;
+                }
+            }
+
+            .input-group-text {
+                background-color: var(--filter-bg) !important;
+                border: none;
+                button{
+                    color: var(--active-yellow);
+                    font-size: var(--fs-15);
+                }
+            }
+
+            #basic-addon1 {
+                font-size: var(--fs-14);
+                color: var(--grey);
+                font-weight: 500;
+                position: relative;
+
+                &::before {
+                    position: absolute;
+                    content: "";
+                    top: 12px;
+                    right: -2px;
+                    width: 1px;
+                    height: 20px;
+                    background-color: var(--grey);
+                }
+            }
+
+            #basic-addon2 {
+                padding: 0;
+
+                button {
+                    .btn {
+                        color: var(--light-yellow);
+                        font-size: var(--fs-14);
+                        text-transform: capitalize;
+                        font-weight: 500;
+
+                        &:hover {
+                            color: var(--active-yellow);
+                        }
+                    }
+                }
+            }
+
+            .dropdown {
+                .btn-secondary {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    background-color: var(--filter-bg);
+                    border-color: var(--filter-bg);
+                    min-height: 45px;
+                    font-size: var(--fs-13);
+                    font-weight: 500;
+                    color: var(--black);
+                    span{
+                        display: flex;
+                        align-items: center;
+                        gap: 6px;
+                    }
+                }
+                .dropdown-toggle {
+                    &::after {
+                        background-image: url(images/p2p/icon/arrow_down.svg);
+                        background-position: right;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        border: none;
+                        height: 10px;
+                        width: 10px;
+                    }
+                }
+    
+                .dropdown-menu {
+                        border: none;
+                        background-color: var(--white);
+                        box-shadow: var(--tab-box-shadow);
+                        padding: 0;
+                        height: 250px;
+                        overflow-y: scroll;
+    
+                        li {
+                            padding: 8px 8px;
+                            cursor: pointer;
+    
+                            &:hover {
+                                background-color: var(--filter-bg);
+                            }
+    
+                            span {
+                                display: flex;
+                                align-items: center;
+                                gap: 8px;
+                                font-size: var(--fs-12);
+                                font-weight: 500;
+                                color: var(--black);
+                            }
+                        }
+    
+                        .search-box {
+                            padding: 10px 10px;
+                            position: sticky;
+                            top: 0;
+                            background: var(--white);
+    
+                            .input-group {
+                                .form-control {
+                                    background-color: var(--white) !important;
+                                    border-color: var(--active-yellow);
+    
+                                    #basic-addon3 {
+                                        background-color: var(--white) !important;
+                                        border: 1px solid var(--active-yellow);
+                                        cursor: pointer;
+                                    }
+                                }
+                                .input-group-text{
+                                    background-color: var(--white) !important;
+                                    border: 1px solid var(--active-yellow);
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                }
+            }
+
+
+        }
+
+.refresh_button {
+    .dropdown {
+        .buy-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--filter-bg);
+            border-color: var(--filter-bg);
+            min-height: 45px;
+            font-size: var(--fs-13);
+            font-weight: 500;
+            color: var(--black);
+            min-width: 150px;
+            text-transform: capitalize;
+            margin-top: 25px;
+        }
+    }
+        .dropdown-menu {
+                border: none;
+                background-color: var(--white);
+                box-shadow: var(--tab-box-shadow);
+                padding: 0;
+                li {
+                        padding: 8px 8px;
+                        cursor: pointer;
+                        &:hover {
+                                background-color: var(--filter-bg);
+                            }
+                            span {
+                                    display: flex;
+                                    align-items: center;
+                                    gap: 8px;
+                                    font-size: var(--fs-12);
+                                    font-weight: 500;
+                                    color: var(--black);
+                                }
+                    }
+            }
+}
+
+
+
+    }
+
+    .content_box {
+        margin-top: 35px;
+    }
+}
+
+.p2p-works {
+    background-color: var(--filter-bg);
+    .p2p-works-heading {
+        h2 {
+            color: var(--black);
+            font-size: var(--fs-25);
+        }
+    }
+
+    .nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
+        color: var(--black);
+        background-color: var(--active-yellow);
+    }
+
+    .nav-link {
+        color: var(--black);
+        font-weight: 500;
+        font-size: var(--fs-15);
+    }
+
+    .p2p-tabs-data {
+        .p2p-cards {
+            .p2p-card1 {
+                min-height: 291px;
+                border:1px solid var(--badge-border);
+                h5 {
+                    color:var(--black);
+                }
+
+                p {
+                   color:var(--grey);
+                   font-size: var(--fs-14); 
+                }
+            }
+        }
+    }
+}
+// end p2p works css
+
+
+// advantage p2p exchange css
+.p2p-advantage{
+    .p2p-advantage-heading{
+        h2{
+            color:var(--black);
+            font-size: var(--fs-25);
+        }
+    }
+    .low-transaction{
+        h5{
+            color:var(--black);
+        }
+        p{
+            font-size: var(--fs-14);
+            color: var(--grey);
+        }
+    }
+}
+
+// advantage p2p exchange css
+
+// start p2p blog
+.p2p-blogs{
+    .p2p-blog-heading{
+        h2{
+            color:var(--black);
+            font-size: var(--fs-25);
+        }
+    }
+    .p2p-blog1{
+        .p2p-icon-img{
+            img{
+                width: 100%;
+                border-radius: 10px;
+            }
+        }
+        h5{
+            a{
+            color:var(--black);
+        }
+        }
+        p{
+            a{
+            font-size: var(--fs-14);
+            color: var(--grey);
+        }
+        }
+    }
+}
+
+.sec_p{
+    padding: 75px 0;
+}
+// end p2p blog
+
+/**============ TAB BOX CSS end ============**/
+@media all and (min-width:1200px) and (max-width:1400px){
+    .p2p-cards .p2p-card1 {
+               min-height: 311px;
+           }
+}
+@media all and (min-width:1025px) and (max-width:1199px){
+    .p2p-works .p2p-tabs-data .p2p-cards .p2p-card1 {
+                min-height: 333px;
+            }
+}
+@media all and (min-width:992px) and (max-width:1024px){
+    .p2p-works .p2p-tabs-data .p2p-cards .p2p-card1 {
+                min-height: 333px;
+            }
+}
+@media all and (min-width: 992px) and ( max-width: 1199px) {
+    .pair_box {
+    display: unset;
+  }
+
+  .pair_btn {
+    float: left;
+    margin-left: 10px;
+}
+
+.pair_btn button.btn.active::before {
+    bottom: 0;
+}
+}
+@media all and (min-width: 768px) and ( max-width: 991px) {
+    .pair_box {
+    display: unset;
+  }
+
+  .pair_btn {
+    float: left;
+    margin-left: 10px;
+}
+
+.pair_btn button.btn.active::before {
+    bottom: 0;
+}
+
+.info_box h2 {
+    font-size: var(--fs-20);
+}
+
+.info_box p {
+    font-size: var(--fs-14);
+}
+.p2p-works .p2p-tabs-data .p2p-cards .p2p-card1 {
+    min-height: 312px;
+    border: 1px solid var(--badge-border);
+}
+}
+@media all and (min-width:320px) and (max-width:767px){
+    
+  .pair_box {
+    display: unset;
+  }
+
+  .pair_btn {
+    float: left;
+    margin-left: 10px;
+}
+
+.pair_btn button.btn.active::before {
+    bottom: 0;
+}
+
+.info_box h2 {
+  font-size: var(--fs-16);
+}
+
+.info_box p {
+  font-size: var(--fs-12);
+}
+
+.info_box p br {
+  display: none;
+}
+}
+
+
+
+
+
+
+
+
+

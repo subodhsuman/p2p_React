@@ -1,0 +1,107 @@
+.p2p-header-main-box {
+  .p2p-nav {
+    background-color: var(--black);
+    .p2p-info {
+      .header_links_box {
+        .heading_link {
+          font-size: var(--fs-14);
+          color: var(--white);
+          text-transform: capitalize;
+        }
+      }
+      .order-box {
+        .order_btn {
+          color: var(--white);
+          font-size: var(--fs-14);
+          border-color: var(--black);
+          // &:hover{
+          //   .order-info{
+          //       display: block;
+          //   }
+          // }
+        }
+        .order-info{
+                 box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+     max-width: 350px;
+     position: absolute;
+     top: 0;
+     width: 100%;
+     right: 0;
+     background-color: var(--white);
+     z-index: 1;
+     transform: translateY(45px);
+            .order_header{
+                border-bottom: 1px solid var(--bs-border-color);
+                p{
+                         font-size: var(--fs-14);
+     color: var(--black);
+                }
+                .view_link{
+                    font-size: var(--fs-13);
+                    color: var(--active-yellow);
+                }
+            }
+            .first-sell-usdt{
+                .sell{
+                         font-size: var(--fs-14);
+     color: var(--black);
+     font-weight: 600;
+     text-transform: uppercase;
+                }
+                &:hover{
+                    background-color: var(--filter-bg);
+                }
+                .price{
+                    .fs_text{
+                        font-size: var(--fs-15);
+                    }
+                    p{
+                        font-size: var(--fs-13);
+                        color: var(--black);
+                        text-transform: capitalize;
+                    }
+                    label{
+                             font-size: var(--fs-13);
+     color: var(--grey);
+     text-transform: capitalize;
+                    }
+                }
+                .text_color{
+                    color: var(--black) !important;
+                }
+                .payment{
+     font-size: var(--fs-13);
+     color: var(--active-yellow);
+                }
+            }
+        }
+      }
+      .btn-group {
+        button{
+          font-size: var(--fs-14);
+        }
+        .dropdown-menu {
+            background-color: var(--black);
+          .dropdown-item {
+                 color: var(--white);
+     font-size: var(--fs-14);
+     &:hover{
+             color: var(--black);
+     background-color: var(--filter-bg);
+        .dropdown_icon{
+            fill: var(--black) !important;
+        }
+     }
+     &:focus{
+        color: var(--black);
+        background-color: var(--filter-bg);
+     }
+            span{
+                fill: var(--white);
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "TYPES_SOCKET": {
+        "TIME_OUT": "TIME_OUT",
+        "NOTIFY_SELLER": "NOTIFY_SELLER",
+        "TRANSFERRED": "TRANSFERRED",
+        "PAYMENT_RECIEVE": "PAYMENT_RECIEVE",
+        "ORDER_CANCEL": "ORDER_CANCEL",
+        "MESSAGE": "MESSAGE",
+        "APPEAL": "APPEAL",
+        "CANCEL_APPEAL": "CANCEL_APPEAL",
+        "SUPPORT": "SUPPORT"
+    }
+}

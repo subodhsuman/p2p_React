@@ -1,0 +1,30 @@
+{
+    "AssetData": [
+        {
+            "icon": "INR.png",
+            "name": "INR"
+        },
+
+        {
+            "icon": "BWP.png",
+            "name": "BWP"
+        },
+
+        {
+            "icon": "BZD.png",
+            "name": "BZD"
+        },
+        {
+            "icon": "BGN.png",
+            "name": "BGN"
+        },
+        {
+            "icon": "AUD.png",
+            "name": "AUD"
+        },
+        {
+            "icon": "AFN.png",
+            "name": "AFN"
+        }
+    ]
+}

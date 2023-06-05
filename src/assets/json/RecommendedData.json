@@ -1,0 +1,24 @@
+{
+    "RecommendedData" :[
+        {
+            "Links":"",
+            "ColorChange":"color_one",
+            "RecommendedText":" Bank Transfer (India)"
+        },
+        {
+            "Links":"",
+            "ColorChange":"color_two",
+            "RecommendedText":" IMPS"
+        },
+        {
+            "Links":"",
+            "ColorChange":"color_two",
+            "RecommendedText":" Paytm"
+        },
+        {
+            "Links":"",
+            "ColorChange":"color_one",
+            "RecommendedText":" UPI"
+        }
+    ]
+}

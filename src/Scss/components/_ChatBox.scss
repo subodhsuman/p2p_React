@@ -1,0 +1,169 @@
+.chat-main-box {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  font-size: var(--fs-12);
+  min-height: 608px;
+  background-color: var(--white);
+
+  .user-details {
+    background-color: var(--filter-bg);
+
+    .user-logo {
+      .chat-logo-circle {
+        width: 30px;
+        height: 30px;
+        background-color: var(--black);
+        color: var(--white);
+        font-size: var(--fs-18);
+      }
+    }
+    .user-data {
+      .user-name {
+      }
+      .user-verified {
+        font-weight: 500;
+        .report-user {
+          color: var(--light-yellow);
+        }
+      }
+      .user-trade {
+        .no-trade {
+          font-weight: 500;
+        }
+        .no-rate {
+          font-weight: 500;
+        }
+      }
+    }
+    .close-btn {
+      right: 8px;
+    }
+  }
+  .chat-box {
+    min-height: 440px;
+    max-height: 440px;
+    overflow: auto;
+    background-color: var(--white);
+    .date-time {
+      font-weight: 500;
+    }
+    .sender-msg {
+      font-size: var(--fs-13);
+      font-weight: 500;
+      word-break: break-word;
+      p {
+        background-color: var(--filter-bg);
+      }
+      .user-chat-circle {
+        min-width: 22px;
+        min-height: 22px;
+        max-width: 22px;
+        max-height: 22px;
+        background-color: var(--black);
+        color: var(--white);
+      }
+    }
+    .your-msg {
+      font-size: var(--fs-13);
+      font-weight: 500;
+      word-break: break-word;
+      p {
+        background-color: var(--badge-yellow);
+        span {
+          right: 7px;
+          bottom: 7px;
+        }
+      }
+    }
+  }
+  .typing-box {
+    .input-typing {
+      color: var(--black);
+      font-weight: 500;
+      resize: none;
+      &::placeholder {
+        color: var(--badge-border);
+        font-weight: 500;
+      }
+      &:focus-visible {
+        outline: unset;
+      }
+    }
+    #getFile {
+    }
+    .file-btn {
+      &:hover {
+        .file-btn-svg {
+          fill: var(--grey) !important;
+        }
+      }
+    }
+    .send-btn {
+      &:hover {
+        .send-btn-svg {
+          fill: var(--grey) !important;
+        }
+      }
+    }
+  }
+  /* width */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--badge-border);
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+.chat-main-box {
+  min-height: 100vh;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  .chat-box {
+    min-height: calc(100vh - 163px);
+    max-height: calc(100vh - 163px);
+    .sender-msg {
+      img {
+        max-width: 350px;
+      }
+    }
+    .your-msg {
+      img {
+      }
+      max-width: 350px;
+    }
+  }
+}
+ }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+.chat-main-box {
+  min-height: 100vh;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  .chat-box {
+    min-height: calc(100vh - 163px);
+    max-height: calc(100vh - 163px);
+    .sender-msg {
+      img {
+        max-width: 250px;
+      }
+    }
+    .your-msg {
+      img {
+      }
+      max-width: 250px;
+    }
+  }
+}
+ }

@@ -1,0 +1,13 @@
+{
+    "statusData":[
+        {
+            "text": "All status"
+        },
+        {
+            "text":"Offline"
+        },
+        {
+            "text":"Online"
+        }
+    ]
+}

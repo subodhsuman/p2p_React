@@ -1,0 +1,645 @@
+.p2p-market-main-box {
+  .p2p_buysell {
+    .p2p_heading {
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid var(--market-border);
+
+      .heading_box {
+        padding: 15px 0px;
+
+        h3 {
+          font-size: var(--fs-12);
+          font-weight: 500;
+          color: var(--black);
+          margin: 0;
+          text-transform: capitalize;
+        }
+      }
+
+      #advertiser {
+        flex: 260 1 0%;
+      }
+
+      #price {
+        flex: 242 1 0%;
+
+        h3 {
+          span {
+            color: var(--active-yellow);
+            background-color: var(--badge-yellow);
+            padding: 2px 4px;
+            border-radius: 2px;
+          }
+        }
+      }
+
+      #trade {
+        flex: 118 1 0%;
+
+        h3 {
+          span {
+            color: var(--green);
+            background-color: var(--badge-green);
+            padding: 2px 4px;
+            border-radius: 2px;
+          }
+        }
+      }
+
+      #limit {
+        flex: 265 1 0%;
+      }
+
+      #payment {
+        flex: 185 1 0%;
+      }
+    }
+  }
+
+  .market-box {
+    .market-inner-box {
+      .market_inner_card {
+        display: flex;
+        align-items: center;
+        padding: 20px 0;
+        border-bottom: 1px solid var(--market-border);
+
+        .market-box {
+          .auther_name_icon {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+
+            .auther_name_letter {
+              margin: 0px;
+              border-radius: 50%;
+              background-color: var(--author-bg);
+              width: 16px;
+              height: 16px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              span {
+                font-size: var(--fs-12);
+                color: var(--white);
+              }
+            }
+          }
+
+          .total_orders {
+            display: flex;
+            gap: 5px;
+            margin-left: 24px;
+
+            .order_count {
+              span {
+                font-size: var(--fs-12);
+                font-weight: 500;
+              }
+            }
+
+            .order_complete {
+              span {
+                font-size: var(--fs-12);
+                font-weight: 500;
+              }
+            }
+          }
+
+          .price_box {
+            span {
+              font-size: var(--fs-14);
+              font-weight: 500;
+              color: var(--black);
+            }
+          }
+
+          .limit-box {
+            h3 {
+              font-size: var(--fs-14);
+              font-weight: 500;
+              color: var(--black);
+              padding-bottom: 7px;
+
+              span {
+                margin-right: 6px;
+              }
+            }
+
+            h4 {
+              font-size: var(--fs-14);
+              font-weight: 500;
+              color: var(--black);
+
+              span {
+                margin-right: 26px;
+              }
+            }
+
+            span {
+              font-size: var(--fs-12);
+              color: var(--grey);
+            }
+          }
+
+          .payment-box {
+            border-radius: 2px;
+            font-size: 10px;
+            padding: 4px;
+            display: inline-block;
+            background-color: var(--payment-badge);
+
+            span {
+              font-size: 10;
+              font-weight: 500;
+              cursor: pointer;
+              padding: 2px;
+            }
+          }
+
+          .trade-btn {
+            .btn-primary {
+              padding: 5px 12px;
+              min-width: 130px;
+              font-size: var(--fs-14);
+              font-weight: 500;
+              background: var(--active-green);
+              border-color: var(--active-green);
+              border-radius: 4px;
+
+            }
+
+            .sell_btn_color {
+              background-color: var(--active-red) !important;
+              border-color: var(--active-red) !important;
+            }
+          }
+        }
+
+        #advertiser {
+          flex: 260 1 0%;
+        }
+
+        #price {
+          flex: 242 1 0%;
+
+          h3 {
+            span {
+              color: var(--active-yellow);
+              background-color: var(--badge-yellow);
+              padding: 2px 4px;
+              border-radius: 2px;
+            }
+          }
+        }
+
+        #trade {
+          flex: 118 1 0%;
+
+          h3 {
+            span {
+              color: var(--green);
+              background-color: var(--badge-green);
+              padding: 2px 4px;
+              border-radius: 2px;
+            }
+          }
+        }
+
+        #limit {
+          flex: 265 1 0%;
+        }
+
+        #payment {
+          flex: 185 1 0%;
+        }
+      }
+
+      .market_full_box {
+        background-color: var(--white);
+        box-shadow: var(--tab-box-shadow);
+        padding: 15px 15px;
+        border-radius: 4px;
+        position: relative;
+
+        .author_info {
+          position: relative;
+          min-height: 250px;
+
+          .author_row {
+            .full_author_name {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+
+              .author_box {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+
+                .author_name_letter {
+                  margin: 0px;
+                  border-radius: 50%;
+                  background-color: var(--author-bg);
+                  width: 16px;
+                  height: 16px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+
+                  span {
+                    font-size: var(--fs-12);
+                    color: var(--white);
+
+                  }
+                }
+
+                h3 {
+                  font-size: var(--fs-14);
+                  font-weight: 500;
+                  color: var(--black);
+                  text-transform: capitalize;
+                }
+              }
+
+              .author_order {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+
+                .author_total_order {
+                  span {
+                    font-size: var(--fs-12);
+                    font-weight: 500;
+                    color: var(--black);
+                  }
+                }
+
+                .author_order_complete {
+                  span {
+                    font-size: var(--fs-12);
+                    font-weight: 500;
+                    color: var(--black);
+                  }
+                }
+              }
+
+              span {
+                font-size: var(--fs-14);
+                font-weight: 500;
+                color: var(--black);
+                text-transform: capitalize;
+              }
+            }
+
+            .inner-price-row {
+              .price-box {
+                margin-left: 20px;
+
+                h3 {
+                  font-size: var(--fs-14);
+                  font-weight: 500;
+                  color: var(--active-green);
+
+                  span {
+                    font-size: var(--fs-12);
+                    color: var(--black);
+                    margin-left: 10px;
+                  }
+                }
+              }
+
+              #time_limit {
+                margin-left: 18px;
+              }
+
+              #upi_payment {
+
+                .upi-box {
+                  border-radius: 2px;
+                  font-size: 10px;
+                  padding: 4px;
+                  display: inline-block;
+                  background-color: var(--payment-badge);
+                }
+
+              }
+
+              .avaliable-box {
+                h3 {
+                  font-size: var(--fs-14);
+                  font-weight: 500;
+                  color: var(--black);
+
+                  span {
+                    font-size: var(--fs-12);
+                    margin-left: 10px;
+                  }
+                }
+
+                // .upi-box {
+                // }
+              }
+            }
+
+            .terms_condition_row {
+              .terms_heading {
+                p {
+                  padding-left: 29px;
+                  font-size: var(--fs-14);
+                  text-transform: capitalize;
+                  font-weight: 500;
+                  color: var(--black);
+                }
+              }
+
+              .terms_list {
+                margin-bottom: 0px;
+                list-style: none;
+
+                li {
+                  margin-bottom: 5px;
+
+                  p {
+                    margin: 0;
+                    font-size: var(--fs-13);
+                    font-weight: 500;
+                    color: var(--terms-text);
+                  }
+                }
+              }
+            }
+
+            .buysell_form {
+              .from_row {
+                .label {
+                  label {
+                    font-size: var(--fs-13);
+                    font-weight: 600;
+                    text-transform: capitalize;
+                  }
+                }
+
+                .input-group {
+                  .form-control {
+                    border-radius: 5px;
+                    font-size: var(--fs-13);
+                    color: var(--black);
+                    min-height: 45px;
+                    background-color: var(--white);
+                    border-color: var(--active-yellow);
+
+                    &:focus {
+                      box-shadow: none;
+                    }
+
+                    &::placeholder {
+                      font-weight: 600;
+                    }
+                  }
+
+                  #basic-addon1 {
+                    padding: 0;
+
+                    button {
+                      color: var(--light-yellow);
+                      font-size: var(--fs-14);
+                      text-transform: capitalize;
+                      font-weight: 500;
+
+                      &:hover {
+                        color: var(--active-yellow);
+                      }
+                    }
+                  }
+
+                  #basic-addon2 {
+                    font-size: var(--fs-14);
+                    color: var(--grey);
+                    font-weight: 500;
+                    position: relative;
+                  }
+
+                  .input-group-text {
+                    background-color: var(--white);
+                    border-color: var(--active-yellow);
+                  }
+                }
+
+                .sell_btn_color {
+                  background-color: var(--active-red) !important;
+                  border-color: var(--active-red) !important;
+                }
+
+                .submit_button {
+                  display: flex;
+                  align-items: flex-end;
+                  gap: 5px;
+
+                  #cancel {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: var(--filter-bg);
+                    border-color: var(--filter-bg);
+                    min-height: 45px;
+                    font-size: var(--fs-13);
+                    font-weight: 500;
+                    color: var(--black);
+                    min-width: 150px;
+                    text-transform: capitalize;
+                  }
+
+                  .btn-success {
+                    width: 360px;
+                    padding: 5px 12px;
+                    min-width: 130px;
+                    font-size: var(--fs-14);
+                    font-weight: 500;
+                    border-radius: 4px;
+                    min-height: 45px;
+                    background-color: var(--active-green);
+                    border-color: var(--active-green);
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#buy {
+  background: var(--active-green);
+  border-color: var(--active-green);
+}
+
+#sell {
+  background: var(--active-red);
+  border-color: var(--active-red);
+}
+
+//   /**=========== MARKET FULL BOX CSS FINISH ===========**/
+
+@media all and (min-width:1200px) and (max-width: 1399px) {
+  .p2p-market-main-box {
+    button#cancel {
+      min-width: 60% !important;
+    }
+
+
+    .btn-success {
+      width: 100% !important;
+      min-width: 247px !important;
+    }
+  }
+}
+
+@media all and (min-width:992px) and (max-width: 1199px) {
+  .p2p-market-main-box {
+    button#cancel {
+      min-width: 60% !important;
+    }
+
+    .btn-success {
+      width: 100% !important;
+      min-width: 182px !important;
+    }
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .p2p-market-main-box {
+    .heading_box h3 {
+      font-size: var(--fs-10) !important;
+    }
+
+    .limit-box span {
+      display: block !important;
+    }
+
+    .total_orders {
+      display: block !important;
+    }
+
+    .price_box span {
+      margin-left: 17px !important;
+    }
+
+    .price-box {
+      margin-left: 0 !important;
+    }
+
+    .price-box h3 span {
+      margin-left: 0 !important;
+    }
+
+    .avaliable-box h3 span {
+      margin-left: 0 !important;
+    }
+
+    div#time_limit {
+      margin-left: 0 !important;
+    }
+
+    ul.terms_list {
+      padding: 0 !important;
+    }
+
+    button#cancel {
+      min-width: 100px !important;
+    }
+
+    .btn-success {
+      width: 100% !important;
+    }
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .p2p-market-main-box {
+    .p2p_heading {
+      display: none !important;
+    }
+
+    .market_inner_card {
+      display: block !important;
+      border-width: 2px !important;
+    }
+
+    div#advertiser {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: space-between !important;
+    }
+
+    .order_count {
+      text-align: center !important;
+    }
+
+    .order_complete {
+      text-align: center !important;
+    }
+
+    div#price {
+      margin-bottom: 10px !important;
+    }
+
+    div#limit {
+      margin-bottom: 13px !important;
+    }
+
+    div#payment {
+      margin-bottom: 12px !important;
+    }
+
+    .submit_button {
+      position: static !important;
+      display: block !important;
+    }
+
+    button#cancel {
+      min-width: 100% !important;
+      margin-top: 0 !important;
+      margin-bottom: 10px !important;
+    }
+
+    .btn-success {
+      width: 100% !important;
+    }
+
+    .buysell_form {
+      margin-bottom: 25px !important;
+    }
+
+    ul.terms_list {
+      padding-left: 0 !important;
+    }
+
+    .price-box {
+      margin-left: 0 !important;
+    }
+
+    .price-box h3 {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: space-between !important;
+    }
+
+    .avaliable-box h3 {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: space-between !important;
+    }
+
+    div#time_limit {
+      margin-left: 0 !important;
+      margin-bottom: 11px !important;
+    }
+
+  }
+}

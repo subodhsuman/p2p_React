@@ -1,0 +1,223 @@
+.order_status_main{
+    .order-result {
+            .order-result-info {
+                padding: 25px 0;
+                background-color: var(--filter-bg);
+                .order-info{
+                    h3{
+                        font-size: var(--fs-18);
+                        font-weight: 600;
+                        color: var(--black); 
+                    }
+                    p{
+                        font-size: var(--fs-14);
+                        font-weight: 400;
+                        color: var(--black);                        
+                    }
+                }
+                .order-number{
+                    text-align: end;
+                    p{
+                    font-size: var(--fs-13);
+                    color: var(--grey);
+                    font-weight: 400; 
+                    span{
+                        color: var(--black);
+                        font-weight: 500;                       
+                    }                    
+                    }
+                }
+            }
+            .order-info{
+                .order-amount{
+                    .order-heading{
+                        h6{
+                        font-size: var(--fs-17);
+                        font-weight: 500;
+                        color: var(--black);                           
+                        }
+                    }
+                    .amount-info{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between; 
+                            .amount-box{
+                                h6{
+                                font-size: var(--fs-14);
+                                font-weight: 500;
+                                color: var(--black);                                   
+                                }
+                                h5{
+                                font-size: var(--fs-15);
+                                font-weight: 600;
+                                color: var(--grey);
+                                padding-bottom: 7px;                                   
+                                }
+                            }                       
+                    }
+                }
+                .payment-method{
+                    .payment-heading{
+                        h6{
+                            font-size: var(--fs-17);
+                            font-weight: 500;
+                            color: var(--black);                            
+                        }
+                    }
+                    .payment-box{
+                            padding: 25px 15px;
+                            background-color: var(--filter-bg);
+                            border-radius: 4px;
+                            span{
+                                font-size: var(--fs-12);
+                                padding: 4px;
+                                display: inline-block;
+                                background-color: transparent;
+                                font-weight: 500;
+                                color: var(--black);
+                                border: 1px solid var(--badge-border);
+                                border-radius: 4px;
+                                cursor: pointer;                               
+                            }
+                    }
+                    
+                }
+                .button-box{
+                    border-bottom: 2px solid var(--market-border);
+                    padding-bottom: 20px;  
+                    button.btn{
+                            background: transparent;
+                            border: none;
+                            color: var(--light-yellow);
+                            text-transform: capitalize;
+                            font-weight: 500;
+                            font-size: var(--fs-14);                                
+                    }                      
+                }
+                .feedback-button{
+                    .feedback-head{
+                        h6{
+                        font-size: var(--fs-17);
+                        font-weight: 500;
+                        color: var(--black);                                
+                        }
+                    }
+                    .feedback-button-box{
+                        display: flex;
+                        align-items: center;
+                        gap: 12px;
+                        button.btn{
+                            border: 2px solid var(--badge-border);
+                            min-width: 154px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            font-size: var(--fs-15);
+                            font-weight: 500;
+                            color: var(--black);
+                            min-height: 46px;
+                            border-radius: 34px;   
+                            span{
+                                background: var(--filter-bg);
+                                width: 35px;
+                                height: 35px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                border-radius: 27px;                                                
+                            }                                         
+                        }                             
+                    }
+                }
+                .feedback-text{
+                    .form-floating{
+                        .comment_list{
+                            border-bottom: 1px solid #76808f59;
+                            h3{
+                                font-size: var(--fs-14);
+                                font-weight: 500;
+                                color: var(--grey);    
+                            }
+                            p{
+                             font-size: var(--fs-14);
+                            font-weight: 500;
+                            color: var(--black);     
+                            }
+                        }
+                      
+                           
+                        .form-control{
+                            &:focus{
+                                box-shadow: none;
+                            }
+                            border: 1px solid var(--active-yellow);
+                                font-size: var(--fs-14);
+                                color: var(--black);
+                        }                 
+                        label{
+                            font-size: var(--fs-13);
+                            font-weight: 500;
+                            color: var(--black);                            
+                        }
+                    }
+                    .check-box{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;  
+                        label{
+                            font-size: var(--fs-13);
+                            font-weight: 500;
+                            color: var(--black);                            
+                        }
+                        .comment-btn{
+                            button.btn{
+                                background-color: var(--active-yellow);
+                                font-size: var(--fs-13);
+                                min-width: 150px;
+                                font-weight: 600;
+                                color: var(--black);                                
+                            }
+                        }                      
+                    }
+                }
+            }
+        }
+}
+/* Media Query css */
+@media all and (min-width: 320px) and (max-width:767px) {
+    .order_status_main{
+        .order-result{
+            .order-info{
+                .button-box{
+                    button.btn{
+                        font-size: var(--fs-13) !important; 
+                    }
+                }
+                .feedback-button{
+                    button.btn{
+                        min-width: 145px !important;
+                    }  
+                }
+            }
+        }
+    }
+}
+@media all and (min-width: 320px) and (max-width:576px) {
+    .order_status_main {
+            .order-result {
+                .order-info {
+                    .feedback-text{
+                        .check-box{
+                            display: block !important;
+                            .form-check{
+                                margin-bottom: 10px !important; 
+                            }
+                        } 
+                    }
+                }
+            }
+        }
+}
+/* Media Query css */
+
+

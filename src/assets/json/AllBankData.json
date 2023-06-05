@@ -1,0 +1,59 @@
+{
+    "AllBankData" :[
+        {
+            "Links":"",
+            "ColorChange":"color_one",
+            "BankName":" Aladin bank"
+        },
+        {
+            "Links":"",
+            "ColorChange":"color_two",
+            "BankName":" alBaraka"
+        },
+        {
+            "Links":"",
+            "ColorChange":"color_two",
+            "BankName":" Alex Bank"
+        },
+        {
+            "Links":"",
+            "ColorChange":"color_one",
+            "BankName":" AliPay"
+        },
+        {
+            "Links":"",
+            "ColorChange":"color_one",
+            "BankName":" AliPay"
+        },
+        {
+            "Links":"",
+            "ColorChange":"color_one",
+            "BankName":" AliPay"
+        },
+        {
+            "Links":"",
+            "ColorChange":"color_one",
+            "BankName":" AliPay"
+        },
+        {
+            "Links":"",
+            "ColorChange":"color_one",
+            "BankName":" AliPay"
+        },
+        {
+            "Links":"",
+            "ColorChange":"color_one",
+            "BankName":" AliPay"
+        },
+        {
+            "Links":"",
+            "ColorChange":"color_one",
+            "BankName":" AliPay"
+        },
+        {
+            "Links":"",
+            "ColorChange":"color_one",
+            "BankName":" AliPay"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "ProcessListData":[
+        {
+            "BuySell":"sell",
+            "ProcesLinks":"",
+            "CryptoType":"USDT",
+            "StatusData":"Pending buyer's payment",
+            "PriceText":"Price",
+            "PriceData":"28.29 INR",
+            "DateData":"2023-03-06 16:37:00",
+            "CryptoText":"Crypto amount",
+            "AmountType":"10.17 USDT",
+            "CryptoAmount":"1000.00 INR",
+            "GamilData":"In****18",
+            "TimerData":"05:57:45"
+        },
+        {
+            "BuySell":"sell",
+            "ProcesLinks":"",
+            "CryptoType":"USDT",
+            "StatusData":"Pending buyer's payment",
+            "PriceText":"Price",
+            "PriceData":"28.29 INR",
+            "DateData":"2023-03-06 16:37:00",
+            "CryptoText":"Crypto amount",
+            "AmountType":"10.17 USDT",
+            "CryptoAmount":"1000.00 INR",
+            "GamilData":"In****18",
+            "TimerData":"05:57:45"
+        }
+    ]
+}

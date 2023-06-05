@@ -1,0 +1,589 @@
+.order_detail_main{
+    .order-detail{
+        .order-created-info {
+                padding: 25px 0;
+                background-color: var(--filter-bg);
+                .order-info { 
+                    h3{
+                        font-size: var(--fs-18);
+                        font-weight: 600;
+                        color: var(--black);
+                     }
+                     p{
+                        font-size: var(--fs-14);
+                        font-weight: 400;
+                        color: var(--black);
+                        span{
+                            // background-color: var(--active-yellow);
+                            border-radius: 4px;
+                            // width: 30px;
+                            // height: 30px;
+                            display: inline-block;
+                            padding: 5px 10px;
+                            color: var(--black);
+                            font-weight: 600;
+                            text-align: center;
+                        }
+                     }
+                }
+                .order-number {
+                    text-align: end;
+                    p{
+                        font-size: var(--fs-13);
+                        color: var(--grey);
+                        font-weight: 400;
+                    }
+                    span{
+                        color: var(--black);
+                        font-weight: 500;
+                    }
+                }
+        }
+        .order-process {
+            .notify-box {
+                display: flex;
+                align-items: center;
+                .notify_inner_box{
+                    &:last-child{
+                        flex-basis: content !important;
+                    }
+                     display: flex;
+                    flex-direction: column;
+                    flex: 1 0 45%;
+                    .notify_number{
+                        display: flex;
+                       align-items: center;
+                       span{
+                        min-width: 30px;
+                        height: 30px;
+                        background-color: var(--tab-border);
+                        border-radius: 22px;
+                        color: var(--black);
+                        font-weight: 500;
+                        line-height: 30px;
+                        text-align: center;
+                       }
+                    }
+                    .notify-heading{
+                        p{
+                            font-size: var(--fs-12);
+                            font-weight: 500;
+                            color: var(--black);
+                            margin: 0;
+                            padding-top: 5px;
+                        }
+                    }
+                    
+                }
+                .active{
+                    .notify_number{
+                        span{
+                            background: var(--active-yellow);
+                        }
+                    }
+                    .notify-heading {
+                        p{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+              .notify_inner_box.prev{
+                .notify_number{
+                    span{
+                        background: var(--active-yellow);
+                    }
+                    hr{
+                        border: 1px solid var(--active-yellow) !important;
+                    }
+                }
+              }
+            }
+            .notify_msg_box{
+                .notify_msg {
+                        background-color: var(--filter-bg);
+                        p{
+                            font-size: var(--fs-13);
+                        }
+                    }
+            }
+            .order-placed-box{
+                position: relative;
+                &::before{
+                    content: "";
+                    position: absolute;
+                    border-left: 2px dotted #bec1c5;
+                    width: 5px;
+                    height: 87%;
+                    left: -24px;
+                }
+                .order-inner-box{
+                    .payment-author {
+                        .heading-box{
+                            position: relative;
+                            &::before{
+                                content: "";
+                                position: absolute;
+                                background-color: var(--white);
+                                width: 10px;
+                                height: 10px;
+                                border: 2px solid var(--light-yellow);
+                                border-radius: 5px;
+                                left: -28px;
+                            }
+                            margin-bottom: 15px;
+                            h3{
+                                font-size: var(--fs-14);
+                                font-weight: 600;
+                                text-transform: capitalize;
+                                color: var(--black);
+                                margin: 0;
+                                padding-bottom: 5px;
+                            } 
+                        } 
+                    }
+                    .confirm-order-box{
+                        .heading-box{
+                            position: relative;
+                            &::before{
+                                content: "";
+                                position: absolute;
+                                background-color: var(--white);
+                                width: 10px;
+                                height: 10px;
+                                border: 2px solid var(--light-yellow);
+                                border-radius: 5px;
+                                left: -28px;
+                            }
+                            margin-bottom: 15px;
+                            h3{
+                                font-size: var(--fs-14);
+                                font-weight: 600;
+                                text-transform: capitalize;
+                                color: var(--black);
+                                margin: 0;
+                                padding-bottom: 5px;
+                            } 
+                        }
+                        
+                        .order-main {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            .main-box{
+                                p{
+                                font-size: var(--fs-15);
+                                font-weight: 400;
+                                color: var(--grey);
+                                }
+                                h3{
+                                    font-size: var(--fs-14);
+                                    font-weight: 500;
+                                    color: var(--black);  
+                                }
+                            }
+                        }
+                    }
+                    .payment-author{
+                        .heading-box{
+                            &::before{
+                                bottom: 36px;
+                            }
+                            h5{
+                                font-size: var(--fs-15);
+                                font-weight: 500;
+                                color: var(--black);
+                            }
+                            h6{
+                                font-size: var(--fs-14);
+                                font-weight: 500;
+                                color: var(--active-yellow);  
+                            }
+                        }
+                        .author_info{
+                            display: flex;
+                            border: 2px solid var(--market-border);
+                            border-radius: 5px;
+                            position: relative;
+
+                            .payment-box{
+                                border-right:3px solid var(--market-border);
+                            //                                 &::before{
+                            //         position: absolute;
+                            //         content: "";
+                            //         background-color: var(--market-border);
+                            //         width: 3px;
+                            //         height: 100%;
+                            //         top: 0;
+                            //         right: -10%;
+                            // }
+                            .payment-type{
+                                span{
+                                        border-radius: 2px;
+                                        font-size: var(--fs-14);
+                                        padding: 4px;
+                                        display: inline-block;
+                                        background-color: var(--payment-badge);
+                                        font-weight: 500;
+                                        color: var(--black);
+                                        cursor: pointer;
+                                        img{
+                                            width: 20px;
+                                        }
+                                }
+                            }
+                            .payment-active{
+                                border-bottom: 2px solid var(--active-yellow);
+                            }
+                        }
+                            .author_name{
+                                .author_box{
+                                       p{
+                                        font-size: var(--fs-14);
+                                        font-weight: 500;
+                                        color: var(--grey);
+                                       }
+                                       h6{
+                                            font-size: var(--fs-13);
+                                            color: var(--black);
+                                            font-weight: 500;
+                                       }
+                                }
+                            }
+                        }
+                    }
+                    .transfer-button{
+                        .heading-box{
+                            position: relative;
+                            &::before{
+                                    content: "";
+                                    position: absolute;
+                                    background-color: var(--white);
+                                    width: 10px;
+                                    height: 10px;
+                                    border: 2px solid var(--light-yellow);
+                                    border-radius: 5px;
+                                    left: -28px;
+                                    bottom: 6px;
+                            }
+                            span{
+                                    font-size: var(--fs-15);
+                                    font-weight: 500;
+                                    color: var(--black);
+                            }
+                        }
+                        #seller-btn{
+                                background-color: var(--active-yellow);
+                                border-color: var(--active-yellow);
+                                font-size: var(--fs-13);
+                                text-transform: capitalize;
+                                color: var(--black);
+                                font-weight: 500;
+                        }
+                        #cancel{
+                                margin-left: 12px;
+                                background: transparent;
+                                border: navajowhite;
+                                color: var(--light-yellow);
+                                text-transform: capitalize;
+                                font-weight: 500;
+                                font-size: var(--fs-14);
+                        }
+                        #appeal-btn{
+                                background: transparent;
+                                border: navajowhite;
+                                color: var(--light-yellow);
+                                text-transform: capitalize;
+                                font-weight: 500;
+                                font-size: var(--fs-14);
+                        }
+                    }
+                }
+              }
+        }
+    }
+    // Modal  scss
+    #canceModal {
+        .modal-content {
+            .modal-header {
+                .modal-title {
+                    font-size: var(--fs-18);
+                    text-transform: capitalize;
+                }
+            }
+            .modal-body{
+                    max-height: 471px;
+                    overflow: auto;
+                    .tips-box{
+                        background-color: var(--filter-bg); 
+                        .tips-info{
+                            h6{
+                                color: var(--black);
+                            }
+                            ul{
+                                li{
+                                    list-style: none;
+                                    font-size: var(--fs-12);
+                                    color: var(--black);
+                                    span{
+                                        color: var(--active-yellow);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .why-cancel{
+                        h6{
+                            color: var(--black);
+                        }
+                        ul{
+                            li{
+                                list-style: none;
+                                font-size: var(--fs-13);
+                                color: var(--black);
+                                .form-check-input{
+                                    &:checked{
+                                            background-color: var(--active-yellow);
+                                            border-color: var(--active-yellow);   
+                                    }
+                                }
+                            }
+                        }
+                        .form-floating{
+                            .form-control{
+                                &:focus{
+                                        box-shadow: none;
+                                        border-color: var(--active-yellow);  
+                                }
+                            }
+                            label{
+                                font-size: var(--fs-14);
+                                color: var(--black);
+                            }
+                        }
+                    }
+            }
+            .modal-footer{
+                .modal-cancel {
+                    background-color: var(--filter-bg);
+                    color: var(--black);
+                    font-size: var(--fs-15);
+                    border: 1px solid var(--filter-bg);
+                    font-weight: 600;
+                }
+                .modal-confirm {
+                    background-color: var(--active-yellow);
+                    color: var(--white);
+                    font-size: var(--fs-15);
+                    border: 1px solid var(--active-yellow);
+                    font-weight: 600;
+                    &:hover{
+                            background-color: transparent;
+                            color: var(--active-yellow);
+                            border: 1px solid var(--active-yellow);
+                    }
+                }
+            }
+        }
+        }
+    // Payment modal css 
+    #paymentModal, #PaymentReceived{
+    .modal-title {
+        font-size: var(--fs-18);
+      }
+            .modal-body{
+                .payment-box{
+                    background-color: var(--filter-bg);
+                    .google-pay{
+                           h6{
+                            font-size: var(--fs-14);
+                            color: var(--black);
+                           }
+                    }
+                    .person-info {
+                        p{
+                            font-size: var(--fs-14);
+                            color: var(--grey);
+                        }
+                        span{
+                            font-size: var(--fs-14);
+                            color: var(--black);
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+                .payment-info{
+                    .edit_icon{
+                        width: 70px;
+                        height: 70px;
+                        background: var(--icon-bg);
+                        img{
+                            width: 55px;
+                            height: 55px;
+                        }
+                    }
+                    ul{
+                        list-style: none;
+                        li{
+                         
+                            .form-check{
+                                .form-check-input{
+                                    &:checked{
+                                        background-color: var(--active-yellow);
+                                        border-color: var(--active-yellow);
+                                    }
+                                }
+                                .form-check label{
+                                    font-size: var(--fs-14);
+                                    color: var(--black);
+                                }
+                            }
+                        }
+                    }
+               
+                }
+                .tips-info{
+                    background: var(--filter-bg);
+                    h6{
+                        color: var(--black);
+                    }
+                    ul{
+                        li{
+                            list-style: none;
+                            font-size: var(--fs-14);
+                            color: var(--black);
+                        }
+                    }
+                }
+            }
+    }
+    #AppealModal{
+        .modal-body{
+            .before-appealing{
+                .msg-box{
+                p{
+                    text-transform: capitalize;
+                    font-size: var(--fs-13);
+                }
+            
+                border: 1px solid var(--tab-border);
+            }
+            .modal_text{
+                label{
+                    font-size: var(--fs-13);
+                }
+                textarea {
+                    border: 1px solid var(--tab-border);
+                    font-size: var(--fs-13);
+                }
+            }
+        }
+    }
+    .modal-footer{
+        button{
+            text-transform: capitalize;
+            font-weight: 400;
+            font-size: var(--fs-15);
+        }
+        .modal-cancel {
+            background-color: var(--filter-bg);
+            color: var(--black);
+            border: 1px solid var(--filter-bg);
+          
+        }
+        .modal-confirm {
+            background-color: var(--active-yellow);
+            color: var(--white);
+            border: 1px solid var(--active-yellow);
+        }
+    }
+    }
+    button.modal-cancel{
+    background: #f1efef;
+    font-size: 14px;
+    color: var(--black);
+    border: 1px solid #f1efef;
+        }
+        button.modal-confirm{
+            background: var(--active-yellow);
+            font-size: 14px;
+            color: var(--black);
+            border: 1px solid var(--active-yellow);
+            transition: all 1s ease;
+            &:hover{
+                background-color: transparent;
+            }
+        }
+    /* Appeal Modal css */
+      
+  
+/* Media query css  */
+@media all and (min-width:992px) and (max-width:1200px) {
+    .order-detail{
+        .order-info {
+                p{
+                    font-size: var(--fs-13) !important;
+                }            
+        }
+    }
+   
+}
+@media all and (min-width:320px) and (max-width:767px) {
+    .order-detail{
+        .order-process {
+           .notify-box{
+            align-items: start !important;
+           } 
+        //    .order-placed-box{
+        //     .order-inner-box{
+        //         .payment-author{
+        //             .author_info{
+        //                 &::before{
+        //                     left: 51% !important;
+        //                 }
+        //                     justify-content: space-between !important;
+        //                     gap: 10px !important;
+        //                 } 
+        //         }
+        //     }
+        // }
+        }
+    }
+}
+@media all and (min-width:320px) and (max-width:576px) {
+    .order-detail{
+        .order-process {
+            .notify_inner_box{
+                flex: 1 0 40% !important;
+            }
+        }
+    }
+
+
+    .notify_inner_box{
+        flex: 1 0 40% !important;
+    }
+    // .author_info{
+    //     justify-content: space-between !important;
+    //     gap: 10px !important;
+    // }
+    // .author_info:before{
+    //     left: 165px !important;
+    // }
+    
+}
+/* Media query css  */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

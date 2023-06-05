@@ -1,0 +1,111 @@
+{
+  "PaymentData": [
+    {
+      "link": "#",
+      "method": "Lightning UPI",
+      "ColorChange":"color_two"
+    },
+
+    {
+      "link": "#",
+      "method": "UPI",
+      "ColorChange":"color_one"
+    },
+
+    {
+      "link": "/imps",
+      "method": "IMPS",
+      "ColorChange":"color_one"
+    },
+
+    {
+      "link": "#",
+      "method": "Bank Transfer (India)",
+      "ColorChange":"color_two"
+    },
+
+    {
+      "link": "#",
+      "method": "Google Pay (India)",
+      "ColorChange":"color_one"
+    },
+
+    {
+      "link": "#",
+      "method": "PhonePe",
+      "ColorChange":"color_two"
+    },
+
+    {
+      "link": "/paytm",
+      "method": "Paytm",
+      "ColorChange":"color_one"
+    },
+
+    {
+      "link": "#",
+      "method": "Bank Transfer",
+      "ColorChange":"color_two"
+    },
+    {
+      "link": "#",
+      "method": "More",
+      "Toggle":"modal",
+      "Target":"#editmodal"
+    }
+ 
+  ],
+  "paymentDetailsData": [
+    {
+      "paymentName": "IMPS",
+      "paymentSubDetailsData": [
+        {
+          "heading": "Name",
+          "para": "Rocky Singh"
+        },
+        {
+          "heading": "Bank account number",
+          "para": "596464646545154"
+        },
+        {
+          "heading": "IFSC Code",
+          "para": "PUNB0HPGB07"
+        },
+        {
+          "heading": "Bank Name",
+          "para": "Punjab Sind Bank"
+        },
+        {
+          "heading": "Account Type",
+          "para": "Saving Account"
+        }
+      ]
+    },
+    {
+      "paymentName": "Goggle pay (GPay)",
+      "paymentSubDetailsData": [
+        {
+          "heading": "Name",
+          "para": "Manisha Kumari"
+        },
+        {
+          "heading": "Phone number",
+          "para": "95422564215"
+        }
+      ]
+    },
+    {
+      "paymentName": "UPI",
+      "paymentSubDetailsData": [
+        {
+          "heading": "Name",
+          "para": "Rahul Gupta"
+        },
+        {
+          "heading": "UPI ID",
+          "para": "rahulgupta273@okicici.com"
+        }
+      ]
+    }
+  ]
+}

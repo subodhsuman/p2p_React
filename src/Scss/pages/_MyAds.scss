@@ -1,0 +1,256 @@
+.my-ads-main-box {
+  .adds_header {
+    background-color: var(--white);
+    box-shadow: var(--tab-box-shadow);
+    p {
+      font-size: var(--fs-13);
+    }
+    .tabs_btn_col {
+      .nav-link {
+        color: var(--grey);
+        font-size: var(--fs-14);
+        min-width: 140px;
+      }
+      .nav-link.active {
+        background-color: var(--bs-warning-bg-subtle);
+        color: var(--active-yellow);
+      }
+    }
+    .all_field_box {
+      .all_field {
+        .dropdown {
+          width: 140px;
+
+          .dropdown_btn {
+            width: 100%;
+            background-color: transparent;
+            color: var(--black);
+            font-size: var(--fs-14);
+            border-color: var(--bs-border-color);
+          }
+          .dropdown-menu {
+            li {
+              padding: 0.3rem;
+              font-size: var(--fs-13);
+              transition: all 0.3s;
+
+              &:hover {
+                background-color: var(--filter-bg);
+              }
+            }
+            .search-box {
+              .input-group-text {
+                background-color: transparent;
+              }
+
+              .form-control {
+                font-size: var(--fs-13);
+
+                &:focus {
+                  border-color: var(--bs-border-color);
+                }
+              }
+            }
+          }
+        }
+
+        .date_field {
+          .all_double_date {
+            border: 1px solid var(--bs-border-color);
+            .form-control {
+              font-size: var(--fs-14);
+              max-width: 140px;
+              color: var(--grey);
+            }
+          }
+        }
+        .filter_btn_box {
+          .filter_btn {
+            background-color: var(--active-yellow);
+            font-size: var(--fs-14);
+            border: 1px solid var(--white);
+          }
+        }
+        .reset_btn_box {
+          .reset_btn {
+            background-color: var(--filter-bg);
+            font-size: var(--fs-14);
+            border: 1px solid var(--white);
+          }
+        }
+      }
+      .add_history {
+        .add_history_link {
+          color: var(--active-yellow);
+          font-size: var(--fs-13);
+        }
+      }
+    }
+  }
+  .ads_content_box {
+    .content_head {
+      label {
+        font-size: var(--fs-13);
+      }
+
+      .form-check {
+        .form-check-input {
+          &:checked {
+            background-color: var(--active-yellow);
+            border-color: var(--active-yellow);
+          }
+        }
+      }
+
+      .btn_group {
+        .all_active {
+          color: var(--grey);
+          background-color: var(--filter-bg);
+          border-color: var(--filter-bg);
+          font-size: var(--fs-13);
+        }
+
+        .all_offline {
+          color: var(--grey);
+          background-color: var(--filter-bg);
+          border-color: var(--filter-bg);
+          font-size: var(--fs-13);
+        }
+      }
+    }
+  }
+
+  .tab-content {
+    .tab-pane {
+      .table_box {
+        .table {
+          thead{
+            border-bottom: 15px solid var(--white);
+            tr{
+              th{
+                font-size: var(--fs-14);
+                font-weight: 500;
+                background-color: var(--filter-bg);
+                color: var(--grey);
+                padding: 1.2em 0.9em;
+              }
+            }
+          } 
+          tbody{
+            tr{
+              &:hover{
+                background-color: var(--filter-bg);
+                transition: all 0.5s;
+              }
+              td{
+                font-size: var(--fs-13);
+                .action_col{
+                  .img_width{
+                    min-width: 18px;
+                    height: 18px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+.red_text{
+    color: var(--active-red);
+}
+.green_text{
+  color: var(--green);
+}
+#close{
+  .modal-content{
+    .modal-body{
+      .edit-box{
+          h5{
+            font-size: var(--fs-18);
+            color:var(--black);
+          }
+          p{
+            font-size: var(--fs-14);
+            color:var(--black);           
+          }
+          .edit_icon{
+              width: 70px;
+              height: 70px;
+              background:var(--icon-bg) ; 
+              img{
+                width: 55px;
+                height: 55px;               
+              }          
+          }
+      }
+    }
+    .modal-footer{
+        .modal-cancel {
+          background-color: var(--filter-bg);
+          color: var(--black);
+          font-size: var(--fs-15);
+          border: 1px solid var(--filter-bg);
+      }
+      .modal-confirm {
+          background-color: var(--active-yellow);
+          color: var(--white);
+          font-size: var(--fs-15);
+          border: 1px solid var(--active-yellow);
+      } 
+    }
+  }
+}
+}
+
+/* Media Query css start */
+@media all and (min-width:992px) and (max-width:1200px) {
+  .my-ads-main-box{
+    .all_field .dropdown{
+      width: 110px !important;
+  }
+  }
+   
+}
+@media all and (min-width:767px) and (max-width:992px) {
+  .my-ads-main-box{
+    .asset_field , .type_field , .status_field , .date_field{
+      width: 49% !important;
+    }
+    .all_field{
+      .dropdown{
+        width: 100% !important;
+      }
+    }
+    .table_box{
+      .table{
+        width: 1000px !important;
+      }
+    }
+  }
+}
+@media all and (min-width:320px) and (max-width:767px) {
+  .my-ads-main-box{
+    .asset_field , .type_field , .status_field , .date_field{
+      width: 100% !important;
+    }
+    .all_field{
+      .dropdown{
+        width: 100% !important;
+      }
+    }
+    .tabs_btn_col{
+        .nav-link{
+          min-width: unset !important;
+          font-size: var(--fs-13) !important;
+        }
+    }
+    .table_box{
+      .table{
+        width: 1000px !important;
+      }
+    }
+  }
+}
+/* Media Query css end */

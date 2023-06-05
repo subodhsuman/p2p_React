@@ -1,0 +1,204 @@
+.order-page-main-box {
+    .orders-tab-btn {
+        button.active {
+            color: var(--black) !important;
+            font-weight: 500;
+            border-bottom: 3px solid var(--active-yellow) !important;
+
+        }
+
+    }
+    .orders-tabs {
+        .tab-filter-box {
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+            .all-orders-filters {
+                .all-orders-input-box {
+                    .all-orders-input {
+                        .all-orders-double-date {
+                            height: 36px;
+                            font-size: var(--fs-13);
+                            outline: unset;
+                            background: var(--white);
+                        }
+
+                        .dropdown-menu {
+                            font-size: var(--fs-13);
+                            outline: unset;
+                            background: var(--white);
+                            border-radius: 3px;
+
+                            li {
+                                span {
+                                    cursor: context-menu;
+                                }
+
+                                &:hover {
+                                    background: var(--active-yellow);
+                                }
+
+                                &:nth-last-child(1) {
+                                    border-bottom: 0 !important;
+                                }
+                            }
+                        }
+
+                        .dropdown-toggle {
+                            height: 36px;
+                            font-size: var(--fs-13);
+                            outline: unset;
+                            background: var(--white);
+                        }
+
+                        P {
+                            font-size: var(--fs-13);
+                        }
+                    }
+
+                    .filter-btn {
+                        .search-btn {
+                            background-color: var(--active-yellow);
+                            color: var(--black);
+                            height: 36px;
+                            font-size: var(--fs-14);
+                        }
+
+                        .reset-btn {
+                            background-color: var(--refresh-btn-bg);
+                            color: var(--black);
+                            height: 36px;
+                            font-size: var(--fs-14);
+                        }
+                    }
+
+                    .all-orders-btn {
+                        img {
+                            min-width: 20px;
+                        }
+
+                        button {
+                            background-color: var(--refresh-btn-bg);
+                            font-size: var(--fs-14);
+                            height: 36px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .tab-table {
+            .table-heading {
+                p {
+                    font-size: var(--fs-12);
+                    min-width: 15%;
+                    word-break: break-all;
+                }
+            }
+
+            .table-body {
+                .table-row {
+                    .table-data {
+                        .table-body-upper {
+                            font-size: var(--fs-15);
+                            font-weight: 500;
+                            // .table-buy-sell-info{
+                            //     .buy-sell-text{
+
+                            //     }
+                            //     .date-time-text{}
+                            // }
+                            .table-buy-sell-number {
+                                img {
+                                    width: 15px;
+                                    cursor: pointer;
+                                }
+
+                                // .order-number{}
+                            }
+                        }
+
+                        .table-body-lower {
+                            font-size: var(--fs-14);
+
+                            div {
+                                min-width: 15%;
+                                word-break: break-all;
+                            }
+
+                            .td-1 {
+                                img {
+                                    width: 20px;
+                                }
+                            }
+
+                            .td-2 {
+                                font-weight: 500;
+                            }
+
+                            .td-6 {
+                                p {
+                                    font-weight: 500;
+                                }
+
+                                span {
+                                    font-size: var(--fs-12);
+                                    background-color: var(--refresh-btn-bg);
+                                }
+                            }
+
+                            .td-5 {
+                                a {
+                                    color: var(--black);
+                                }
+                            }
+
+                            .td-7 {
+                                color: var(--light-yellow)
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .order-page-main-box {
+
+        .table-heading p,
+        .table-body-lower div {
+            white-space: nowrap !important;
+            width: 50%;
+            overflow: hidden !important;
+            text-overflow: ellipsis !important;
+        }
+
+        .table-body-upper {
+            font-size: var(--fs-14) !important;
+            font-weight: unset !important;
+        }
+
+        .date-time-text p,
+        .table-buy-sell-number div {
+            white-space: nowrap !important;
+            width: 50% !important;
+            overflow: hidden !important;
+            text-overflow: ellipsis !important;
+        }
+
+        .table-buy-sell-number div a {
+            white-space: nowrap !important;
+            width: 61% !important;
+            overflow: hidden !important;
+            text-overflow: ellipsis !important;
+        }
+
+        .buy-sell-text {
+            border: unset !important;
+        }
+    }
+}
+
+// /* processing/all orders/profit & loss statement button style */

@@ -1,0 +1,212 @@
+.advertiser-details-box {
+  .back-btn {
+    span {
+      font-weight: 500;
+    }
+  }
+
+  .advertiser-details {
+    .advertiser-details-img-box {
+      .user-logo {
+        .logo-circle {
+          width: 60px;
+          height: 60px;
+          p {
+            color: var(--white);
+            font-size: var(--fs-18);
+          }
+        }
+      }
+      .user-details {
+        h6 {
+          span {
+            color: var(--light-yellow);
+            font-size: var(--fs-12);
+            opacity: 0.6;
+          }
+        }
+        .joined {
+          font-size: var(--fs-13);
+        }
+        .verified-data {
+          p {
+            font-size: var(--fs-14);
+          }
+        }
+      }
+    }
+    .advertiser-details-feedback-box {
+      background: linear-gradient(
+        91.65deg,
+        rgba(234, 236, 239, 0.15) -44.07%,
+        rgba(234, 236, 239, 0.5) 120.88%
+      );
+      .feedback-persentage-box {
+        .feedback-text {
+          font-size: var(--fs-13);
+        }
+        .feedback-persentage {
+          span {
+            font-size: var(--fs-20);
+            font-weight: 500;
+          }
+        }
+      }
+      .positive-negative-box {
+        .positive-negative {
+          p {
+            font-size: var(--fs-14);
+            span {
+              color: var(--white);
+              border-radius: 5px;
+            }
+          }
+          .positive-feedback {
+            span {
+              background: var(--active-green);
+            }
+          }
+          .negative-feedback {
+            span {
+              background: var(--active-red);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .trade-box {
+    .trade-inner-box {
+      width: 214px;
+      min-height: 132px;
+      p {
+        font-size: var(--fs-14);
+        span {
+          font-size: var(--fs-13);
+        }
+      }
+      .time {
+        font-size: var(--fs-18);
+        font-weight: 500;
+      }
+    }
+  }
+
+  .feedback-main-box {
+    .feedback-heading {
+      h6 {
+        border-bottom: 2px solid var(--active-yellow);
+      }
+    }
+    .feedback-box {
+      .percentage-data {
+        .percentage-number {
+          font-size: var(--fs-22);
+          font-weight: 600;
+        }
+        .reviews {
+          font-size: var(--fs-14);
+        }
+      }
+      .percentage-graph {
+        p {
+          font-size: var(--fs-12);
+        }
+        .positive-line-box {
+          .positive-line {
+            width: 150px;
+            height: 7px;
+            background: var(--tab-border);
+            &::before {
+              position: absolute;
+              content: "";
+
+              height: 100%;
+              left: 0;
+              top: 0;
+              border-radius: 0.5rem;
+              background: var(--active-green);
+              width: var(--width, 85%)
+            }
+          }
+          // .positive-graph-data {
+          // }
+        }
+      }
+      .negtive-line-box {
+        .negative-line {
+          width: 150px;
+          height: 7px;
+          background: var(--tab-border);
+          &::before {
+            position: absolute;
+            content: "";
+
+            height: 100%;
+            left: 0;
+            top: 0;
+            border-radius: 0.5rem;
+            background: var(--active-red);
+            width: var(--width, 85%)
+          }
+        }
+        // .negative-graph-data {
+        // }
+      }
+    }
+  }
+
+  .feedback-reviews {
+    .reviews-tab-btn {
+      ul {
+        li {
+          button.active {
+            color: var(--black) !important;
+            font-weight: 500;
+            border-bottom: 3px solid var(--active-yellow) !important;
+          }
+          button {
+            font-weight: 500;
+            font-size: var(--fs-14);
+          }
+        }
+      }
+    }
+    .tab-content {
+      .reviews-tab {
+        .reviewer-data {
+          .reviewer-logo {
+            .reviewer-circle {
+              width: 20px;
+              height: 20px;
+              background: var(--black);
+              color: var(--white);
+              font-size: var(--fs-12);
+            }
+          }
+          .reviewer-date {
+            font-size: var(--fs-13);
+            margin-left: 30px;
+          }
+          .IMPS-name {
+            margin-left: 30px;
+          }
+        }
+        .reviewer-review {
+          p {
+            font-size: var(--fs-13);
+          }
+          img {
+            width: 25px;
+          }
+        }
+      }
+      .pagination-page {
+        .pagination-link {
+          color: var(--black);
+        }
+      }
+    }
+  }
+}

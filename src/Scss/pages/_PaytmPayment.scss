@@ -1,0 +1,122 @@
+.payment_box {
+    .payment_row {
+        min-height: calc(100vh - 51px);
+
+        .payment_inner_box {
+            background-color: var(--white);
+            box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+
+            .payment_heading {
+                h6 {
+                    span {
+                        width: 4px;
+                        height: 14px;
+                        border-radius: 5px;
+                        background-color: var(--active-red);
+                        display: block;
+                    }
+                }
+            }
+
+            .holder_box {
+                p {
+                    font-size: var(--fs-15);
+                }
+
+                span {
+                    font-size: var(--fs-14);
+
+                }
+            }
+
+            .input_box {
+                label {
+                    font-size: var(--fs-15);
+                }
+
+                input {
+                    font-size: var(--fs-14);
+
+                    .form-control {
+                        &:focus {
+                            border-color: var(--bs-border-color);
+                        }
+                    }
+                }
+            }
+
+            .file_input {
+                h6 {
+                    font-size: var(--fs-15);
+                    font-weight: 400;
+                }
+
+                input {
+                    opacity: 0;
+                    position: absolute;
+                    width: 0;
+                    height: 0;
+
+                    .form-select {
+                        font-size: var(--fs-14);
+                    }
+                }
+
+                label {
+                    position: relative;
+                    border: 1px dashed var(--bs-border-color);
+                    border-radius: 6px;
+                    min-height: 100px;
+                    max-width: 150px;
+
+                    .file_inner {
+                        svg {
+                            fill: var(--grey);
+                        }
+
+                        // span {
+                        //     .upload_text {}
+                        // }
+                    }
+                }
+
+                    .msg_text {
+                        font-size: var(--fs-13);
+                    }
+            }
+
+            .tips_box {
+                h6 {
+                    font-size: var(--fs-15);
+                }
+
+                p {
+                    font-size: var(--fs-14);
+                }
+            }
+
+            .btn_group {
+                .cancel_btn {
+                    border: 1px solid var(--bs-border-color);
+                    background-color: var(--white);
+                    font-size: var(--fs-15);
+                }
+
+                .confirm_btn {
+                    border: 1px solid var(--active-yellow);
+                    background-color: var(--active-yellow);
+                    font-size: var(--fs-15);
+                }
+            }
+        }
+    }
+}
+
+@media all and (min-width:320px) and (max-width:767px) {
+    .payment_box{
+        .file_input label {
+            max-width: 100% !important;
+        }
+    }
+   
+}

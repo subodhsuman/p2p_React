@@ -1,0 +1,341 @@
+{
+    "PairData": [
+        "USDT",
+        "BTC",
+        "BUSD",
+        "BNB",
+        "ETH",
+        "TRX",
+        "SHIB",
+        "MATIC",
+        "WRX"
+    ],
+    "CountryData": [
+        {
+            "icon": "INR.png",
+            "name": "INR"
+        },
+
+        {
+            "icon": "BWP.png",
+            "name": "BWP"
+        },
+
+        {
+            "icon": "BZD.png",
+            "name": "BZD"
+        },
+        {
+            "icon": "BGN.png",
+            "name": "BGN"
+        },
+        {
+            "icon": "AUD.png",
+            "name": "AUD"
+        },
+        {
+            "icon": "AFN.png",
+            "name": "AFN"
+        }
+    ],
+
+    "PaymentData":[
+
+        {
+            "name":"All Payment",
+            "image":"all_payment.png"
+        },
+
+        {
+            "name":"Lightning UPI",
+            "image":"upi.svg"
+        },
+
+        {
+            "name":"UPI",
+            "image":"upi.svg"
+        },
+
+        {
+            "name":"IMPS",
+            "image":"imps.svg"
+        },
+
+        {
+            "name":"Bank Transfer (India)",
+            "image":"bank-transfer.svg"
+        },
+
+        {
+            "name":"Google Pay (India)",
+            "image":"google-pay.svg"
+        },
+
+        {
+            "name":"PhonePe",
+            "image":"phonepe.svg"
+        },
+
+        {
+            "name":"Paytm",
+            "image":"paytm.svg"
+        },
+
+        {
+            "name":"Bank Transfer",
+            "image":"bank-transfer.svg"
+        }
+    ],
+
+    "RegionData":[
+        {
+            "icon":"globe.svg",
+            "name":"All Regions"
+        },
+
+        {
+            "icon":"india.svg",
+            "name":"India"
+        },
+
+        {
+            "icon":"canada.svg",
+            "name":"Canada"
+        },
+
+        {
+            "icon":"indonasiea.svg",
+            "name":"Indonasiea"
+        },
+
+        {
+            "icon":"pakistan.svg",
+            "name":"Pakistan"
+        },
+        {
+            "icon":"qatar.svg",
+            "name":"Qatar"
+        },
+        {
+            "icon":"bangladesh.svg",
+            "name":"Bangladesh"
+        }
+    ],
+
+    "MarketData":[
+        {
+            "author_name_letter":"t",
+            "author_user_name":"Tarungarg1112",
+            "totalorders":"47",
+            "ordercomplete":"97.40",
+            "price":"83.00",
+            "currency":"INR",
+            "avaliablemoney":"4532",
+            "avaliablecurrency":"USDT",
+            "limitone":"102.33",
+            "limittwo":"140.33",
+            "paymenttype":"IMPS",
+            "hidden": true,
+            "time_limit": "15",
+            "terms": [
+
+                "Open any of the UPI applications.",
+
+                "Scan the UPI QR code provided here.",
+
+                "Make sure you are paying through your own bank account linked to the UPI application. 4. Authorize your payment transfer using your UPI pin.",
+
+                "Order will be automatically released once you complete the payment.",
+
+                "The order will not be released against 3rd party payments/ payment made using someone else's UPI account.",
+
+                "Please do not make multiple payments to the same QR code.",
+
+                "Please reach out to the customer support team in case the UPI payment gets stuck in pending status and the P2P order gets canceled after timeout."
+
+            ]
+        },
+
+        {
+            "author_name_letter":"t",
+            "author_user_name":"Tarungarg1112",
+            "totalorders":"47",
+            "ordercomplete":"97.40",
+            "price":"83.00",
+            "currency":"INR",
+            "avaliablemoney":"4532",
+            "avaliablecurrency":"USDT",
+            "limitone":"102.33",
+            "limittwo":"140.33",
+            "paymenttype":"IMPS",
+            "hidden": true,
+            "time_limit": "15",
+            "terms": [
+
+                "Open any of the UPI applications.",
+
+                "Scan the UPI QR code provided here.",
+
+                "Make sure you are paying through your own bank account linked to the UPI application. 4. Authorize your payment transfer using your UPI pin.",
+
+                "Order will be automatically released once you complete the payment.",
+
+                "The order will not be released against 3rd party payments/ payment made using someone else's UPI account.",
+
+                "Please do not make multiple payments to the same QR code.",
+
+                "Please reach out to the customer support team in case the UPI payment gets stuck in pending status and the P2P order gets canceled after timeout."
+
+            ]
+        },
+
+        {
+            "author_name_letter":"t",
+            "author_user_name":"Tarungarg1112",
+            "totalorders":"47",
+            "ordercomplete":"97.40",
+            "price":"83.00",
+            "currency":"INR",
+            "avaliablemoney":"4532",
+            "avaliablecurrency":"USDT",
+            "limitone":"102.33",
+            "limittwo":"140.33",
+            "paymenttype":"IMPS",
+            "hidden": true,
+            "time_limit": "15",
+            "terms": [
+
+                "Open any of the UPI applications.",
+
+                "Scan the UPI QR code provided here.",
+
+                "Make sure you are paying through your own bank account linked to the UPI application. 4. Authorize your payment transfer using your UPI pin.",
+
+                "Order will be automatically released once you complete the payment.",
+
+                "The order will not be released against 3rd party payments/ payment made using someone else's UPI account.",
+
+                "Please do not make multiple payments to the same QR code.",
+
+                "Please reach out to the customer support team in case the UPI payment gets stuck in pending status and the P2P order gets canceled after timeout."
+
+            ]
+        },
+
+        {
+            "author_name_letter":"t",
+            "author_user_name":"Tarungarg1112",
+            "totalorders":"47",
+            "ordercomplete":"97.40",
+            "price":"83.00",
+            "currency":"INR",
+            "avaliablemoney":"4532",
+            "avaliablecurrency":"USDT",
+            "limitone":"102.33",
+            "limittwo":"140.33",
+            "paymenttype":"IMPS",
+            "hidden": true,
+            "time_limit": "15",
+            "terms": [
+
+                "Open any of the UPI applications.",
+
+                "Scan the UPI QR code provided here.",
+
+                "Make sure you are paying through your own bank account linked to the UPI application. 4. Authorize your payment transfer using your UPI pin.",
+
+                "Order will be automatically released once you complete the payment.",
+
+                "The order will not be released against 3rd party payments/ payment made using someone else's UPI account.",
+
+                "Please do not make multiple payments to the same QR code.",
+
+                "Please reach out to the customer support team in case the UPI payment gets stuck in pending status and the P2P order gets canceled after timeout."
+
+            ]
+        },
+
+        {
+            "author_name_letter":"t",
+            "author_user_name":"Tarungarg1112",
+            "totalorders":"47",
+            "ordercomplete":"97.40",
+            "price":"83.00",
+            "currency":"INR",
+            "avaliablemoney":"4532",
+            "avaliablecurrency":"USDT",
+            "limitone":"102.33",
+            "limittwo":"140.33",
+            "paymenttype":"IMPS",
+            "hidden": true,
+            "time_limit": "15",
+            "terms": [
+
+                "Open any of the UPI applications.",
+
+                "Scan the UPI QR code provided here.",
+
+                "Make sure you are paying through your own bank account linked to the UPI application. 4. Authorize your payment transfer using your UPI pin.",
+
+                "Order will be automatically released once you complete the payment.",
+
+                "The order will not be released against 3rd party payments/ payment made using someone else's UPI account.",
+
+                "Please do not make multiple payments to the same QR code.",
+
+                "Please reach out to the customer support team in case the UPI payment gets stuck in pending status and the P2P order gets canceled after timeout."
+
+            ]
+        },
+
+        {
+            "author_name_letter":"t",
+            "author_user_name":"Tarungarg1112",
+            "totalorders":"47",
+            "ordercomplete":"97.40",
+            "price":"83.00",
+            "currency":"INR",
+            "avaliablemoney":"4532",
+            "avaliablecurrency":"USDT",
+            "limitone":"102.33",
+            "limittwo":"140.33",
+            "paymenttype":"IMPS",
+            "hidden": true,
+            "time_limit": "15",
+            "terms": [
+
+                "Open any of the UPI applications.",
+
+                "Scan the UPI QR code provided here.",
+
+                "Make sure you are paying through your own bank account linked to the UPI application. 4. Authorize your payment transfer using your UPI pin.",
+
+                "Order will be automatically released once you complete the payment.",
+
+                "The order will not be released against 3rd party payments/ payment made using someone else's UPI account.",
+
+                "Please do not make multiple payments to the same QR code.",
+
+                "Please reach out to the customer support team in case the UPI payment gets stuck in pending status and the P2P order gets canceled after timeout."
+
+            ]
+        }
+    ],
+    "RefreshData" : [
+        {
+            "name":"Refresh"
+        },
+        {
+            "name":"Not now"
+        },
+        {
+            "name":"5s to refresh"
+        },
+        {
+            "name":"10s to refresh"
+        },
+        {
+            "name":"20s to refresh"
+        }
+    ]
+}
